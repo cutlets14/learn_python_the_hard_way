@@ -1,10 +1,10 @@
 # Asking questions
-# or input() in Python3
+# or raw_input() in Python2
 print("How old are you?"),
-age = raw_input()
+age = input()
 print("How tall are you?"),
-height = raw_input()
+height = input()
 print("How much do you weigh?"),
-weight = raw_input()
+weight = input()
 
 print("So, you're %r old, %r tall and %r heavy." % (age, height, weight))
